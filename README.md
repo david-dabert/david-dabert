@@ -29,6 +29,7 @@ Specialized, zero-dependency client-side libraries extracted from production com
 | Repository | Description | Technologies |
 | :--- | :--- | :--- |
 | [**gravity-pose**](https://github.com/david-dabert/gravity-pose) | Monocular 3D pose rectification & gravity alignment for floor-tilted smartphone cameras ($15^\circ-35^\circ$ pitch). Restores 100% true vertical ROM. | TypeScript, 3D Rotation Matrices, MediaPipe |
+| [**kinematic-inpaint**](https://github.com/david-dabert/kinematic-inpaint) | 3D rigid kinematic occlusion inpainting & bone-length trilateration. Solves 45 cm Olympic bumper plate & gym machinery joint dropouts ($dL/dt = 0$). | TypeScript, Kalman Filter, Analytical Trilateration |
 | [**acoustic-haptics**](https://github.com/david-dabert/acoustic-haptics) | Missing-fundamental psychoacoustic sub-bass (virtual 80 Hz) & noise-penetrating transient cue engine cutting through 90 dBA gym noise without earbud distortion. | Web Audio API, Psychoacoustics, Sound Synthesis |
 | [**sovereign-health**](https://github.com/david-dabert/sovereign-health) | Zero-server streaming parser for 1+ GB Apple Health `export.xml` and Google Takeout CSVs with sub-15 MB RAM footprint. | TypeScript, Streaming Regex, Local-First |
 
