@@ -1,26 +1,53 @@
-### David Dabert
+# David Dabert
 
-Programme coordinator turned builder. Twelve years across EU, FCDO, and AFD frameworks in six countries — then I started building the tools I wished existed.
+**Systems Architect & Founder** — Building Zero-Server Computer Vision, Biomechanical Kinematics & Sovereign Client-Side AI.
 
-**What I'm building:**
+Twelve years coordinating 15-partner international consortiums across six countries (EU, FCDO, AFD) — now engineering high-performance, private, client-side tools that eliminate server dependencies.
 
-[**WorkoutVision**](https://david-dabert.github.io/workout-vision/) — on-device AI workout analysis that runs entirely in the browser. No server, no uploads, no account. Upload a video, get rep counts, form scores, and biomechanical coaching feedback.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-David%20Dabert-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/david-dabert/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-david--dabert.github.io-100000?style=flat&logo=safari)](https://david-dabert.github.io/)
+[![Newsletter](https://img.shields.io/badge/Editor-The%20Practitioner's%20Read-blueviolet)](https://www.linkedin.com/in/david-dabert/)
 
-Under the hood: MediaPipe WASM pose detection in a Web Worker, concurrent frame pipeline with back-pressure, Kalman-filtered landmark smoothing, valley-based rep counting validated against the Countix academic benchmark (274 exercises, MAE 0.90), declarative form checks compiled from an exercise DSL, offline-first PWA. 43k lines of code, solo-built in 30 days.
+---
 
-**What I bring:**
+## 🚀 Flagship Project
 
-- Systems thinking shaped by coordinating 15-partner consortiums across 6 countries — I architect before I build
-- Self-taught engineering with the discipline to validate against ground truth, not just ship and hope
-- Bilingual French/English, five languages total. Editor of [The Practitioner's Read](https://www.linkedin.com/in/david-dabert/) (~1,100 institutional readers across Quai d'Orsay, IOM, European Commission, ETF, EIB)
-- I learn whatever the problem demands: WebCodecs, signal processing, biomechanics, WASM — none were in my stack six months ago
+### [**WorkoutVision**](https://david-dabert.github.io/workout-vision/) — Zero-Server On-Device Movement Intelligence
+> *Real-time computer vision workout and biomechanical analysis running 100% inside the browser. No cloud, no video uploads, no accounts, zero backend costs.*
 
-**Background:**
+* **Architecture:** MediaPipe WASM & WebGPU pose detection in Web Workers with concurrent frame backpressure regulation.
+* **Accuracy & Validation:** Deterministic kinematic counting validated against academic benchmarks (Countix MAE 0.90) and exact paired McNemar statistical test harnesses ($p = 1.00$ regression-free invariant).
+* **Thermal Duty Cycle:** Dynamic frame throttling (30 fps active $\to$ 4 fps rest), slashing mobile SoC compute by >70% on iOS Safari.
+* **Stack:** TypeScript, React, MediaPipe BlazePose, Web Audio API, Web Workers, IndexedDB, TailwindCSS.
 
-- Bioforce RNCP Level 7 (humanitarian programme coordination)
-- SALTO-YOUTH accredited trainer, European Commission (17 domains)
-- 15-partner DFID-UKAID consortium coordination, Dakar 2018-2019
-- 10 years delivering francophone programmes in London institutions (2008-2017)
-- Senior Receptionist at MEININGER Hotels, Bordeaux (operational excellence, five languages)
+---
 
-Bordeaux, France
+## 🛠️ Open-Source Research & Tooling
+
+Specialized, zero-dependency client-side libraries extracted from production computer vision systems:
+
+| Repository | Description | Technologies |
+| :--- | :--- | :--- |
+| [**gravity-pose**](https://github.com/david-dabert/gravity-pose) | Monocular 3D pose rectification & gravity alignment for floor-tilted smartphone cameras ($15^\circ-35^\circ$ pitch). Restores 100% true vertical ROM. | TypeScript, 3D Rotation Matrices, MediaPipe |
+| [**acoustic-haptics**](https://github.com/david-dabert/acoustic-haptics) | Missing-fundamental psychoacoustic sub-bass (virtual 80 Hz) & noise-penetrating transient cue engine cutting through 90 dBA gym noise without earbud distortion. | Web Audio API, Psychoacoustics, Sound Synthesis |
+| [**sovereign-health**](https://github.com/david-dabert/sovereign-health) | Zero-server streaming parser for 1+ GB Apple Health `export.xml` and Google Takeout CSVs with sub-15 MB RAM footprint. | TypeScript, Streaming Regex, Local-First |
+
+---
+
+## 💡 What I Bring to the Table
+
+* **Systems Engineering & Ground-Truth Discipline:** Shaped by leading 15-partner international consortiums across 6 countries. I architect before I build and evaluate with mathematical rigor (bootstrap confidence intervals, empirical benchmark suites).
+* **Zero-Server Client-Side Purity:** Strong advocate for local-first computing—moving expensive cloud compute (computer vision, audio synthesis, health analytics) directly to edge devices via WASM and modern Web APIs.
+* **Fast Polymathic Execution:** Mastery of computer vision, WebCodecs, digital signal processing, biomechanical kinematics, and French typography conventions.
+* **Bilingual Leadership:** Bilingual French/English, five languages total. Editor of *The Practitioner's Read* (~1,100 institutional readers across European Commission, Quai d'Orsay, IOM, ETF, EIB).
+
+---
+
+## 🏛️ Background & Accreditation
+
+* **Programme Coordination:** Bioforce RNCP Level 7 (Humanitarian Programme Coordination)
+* **Institutional Consortiums:** 15-partner DFID-UKAID consortium coordination (Dakar 2018–2019)
+* **European Commission:** SALTO-YOUTH accredited trainer (17 domains)
+* **International Leadership:** 10 years delivering francophone programmes across London institutions (2008–2017)
+
+📍 *Bordeaux, France*
